@@ -20,14 +20,23 @@
 }
 
 .form label{
-    font-size: 25px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(70, 69, 69);
+    padding: 2px;
+}
+
+.form h2{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(99, 32, 32);
+    margin-top: 0;
 }
 
 .form h4{
-    font-size: 12px;
-    color: rgb(70, 69, 69);
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin: 20px;
 }
 
 .butn{
@@ -42,6 +51,9 @@
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
+    margin: 15px;
+    background-color: rgb(27, 27, 77);
+    color: white;
     
 }
 
@@ -49,11 +61,11 @@
     width: 300px;
     height: 30px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
     font-size: 15px;
     font-weight: bold;
-    color: white;
-    background-color: rgb(11, 11, 59);
+    color: rgb(95, 95, 95);
+    background-color: rgb(250, 250, 250);
 }
 
 .form span{
@@ -70,4 +82,13 @@
     font-size: 13px;
     margin-top: 10px;
     color: rgb(134, 134, 134);
+}
+
+.form input{
+width: 220px;
+max-height: 30px;
+padding: 4px;
+margin: 4px;
+outline: rgb(32, 32, 218);
+
 }
